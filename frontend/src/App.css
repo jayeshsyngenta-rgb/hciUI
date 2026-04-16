@@ -1,0 +1,12 @@
+/* Minimal custom styles beyond Tailwind + shadcn */
+
+/* Timer ring animation */
+.timer-ring-progress {
+  transition: stroke-dashoffset 1s linear;
+}
+
+/* Smooth font rendering */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
