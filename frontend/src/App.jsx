@@ -18,6 +18,7 @@ import MoodTracker, { MoodCheck } from './components/MoodTracker'
 import FocusRating from './components/FocusRating'
 import StudyJournal from './components/StudyJournal'
 import ExportReport from './components/ExportReport'
+import { apiUrl } from './api'
 
 function App() {
   const [currentView, setCurrentView] = useState('home')
@@ -39,7 +40,7 @@ function App() {
     setIsLoading(true)
     setStressLevel(level)
     try {
-      const res = await fetch(`/api/recommendation/${level}`)
+      const res = await fetch(apiUrl(`/api/recommendation/${level}`))
       const data = await res.json()
       setRecommendation(data)
       setSessionStep(2)

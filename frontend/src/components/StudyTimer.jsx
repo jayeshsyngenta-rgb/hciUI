@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { Pause, Play, SkipForward, Coffee, BookOpen } from 'lucide-react'
+import { apiUrl } from '@/api'
 import AmbientSounds from './AmbientSounds'
 
 function sendNotification(title, body) {
@@ -34,7 +35,7 @@ export default function StudyTimer({ minutes, breakMinutes, stressLevel, onCompl
 
   const fetchMessage = useCallback(async () => {
     try {
-      const res = await fetch(`/api/messages/${stressLevel}`)
+      const res = await fetch(apiUrl(`/api/messages/${stressLevel}`))
       const data = await res.json()
       setMessage(data.message)
     } catch {

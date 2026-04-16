@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { Card, CardContent } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
+import { apiUrl } from '@/api'
 import { Send, Bot, User, Loader2, Sparkles } from 'lucide-react'
 
 const QUICK_PROMPTS = [
@@ -39,7 +40,7 @@ export default function AIChat() {
     setIsLoading(true)
 
     try {
-      const res = await fetch('/api/chat', {
+      const res = await fetch(apiUrl('/api/chat'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
