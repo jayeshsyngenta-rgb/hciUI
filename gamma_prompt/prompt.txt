@@ -1,0 +1,122 @@
+Create a professional, modern 10-slide presentation for a university HCI (Human-Computer Interaction) course project.
+
+Project Title: Interaction-Based Exam Stress Reduction System
+Tagline: A smart study companion that helps students manage exam stress through interactive, evidence-based techniques.
+
+Tech Stack: React.js + Flask (Python) + Gemini AI
+Live URL: https://hciui-frontend.onrender.com
+GitHub: https://github.com/jayeshsyngenta-rgb/hciUI
+
+---
+
+SLIDE 1 - TITLE SLIDE
+Title: "Interaction-Based Exam Stress Reduction System"
+Subtitle: HCI Course Project
+Team Members:
+- Abhijeet Gaikwad (22320144)
+- Pradnya Tagade (22210038)
+- Shankar Adagale (22320023)
+- Jayesh Wankhede (22320163)
+Tone: Clean, calming, academic
+
+SLIDE 2 - PROBLEM STATEMENT
+Heading: "The Problem"
+Content:
+- 75% of college students report moderate-to-high stress during exams
+- Existing study tools focus only on productivity, ignoring mental health
+- Students lack accessible, integrated tools to manage study stress in real-time
+- Stress leads to poor focus, burnout, and lower academic performance
+Visual suggestion: Stress statistics infographic or student stress illustration
+
+SLIDE 3 - OUR SOLUTION
+Heading: "Our Solution"
+Content:
+- An all-in-one web app that combines study management with stress relief
+- Personalized recommendations based on self-reported stress levels
+- Evidence-based techniques: Pomodoro, breathing exercises, ambient sounds
+- AI-powered study companion for emotional support and study tips
+Visual suggestion: App screenshot or hero section mockup
+
+SLIDE 4 - HCI PRINCIPLES APPLIED
+Heading: "HCI Design Principles"
+Content:
+- User-Centered Design: Stress level drives the entire experience
+- Feedback & Visibility: Progress bars, mood tracking, achievement badges
+- Flexibility: Dark/light mode, customizable timers, multiple sound options
+- Error Prevention: Guided 4-step session wizard eliminates confusion
+- Aesthetic & Minimalist Design: Clean UI with Framer Motion animations
+Visual suggestion: Side-by-side UI screenshots showing principles
+
+SLIDE 5 - KEY FEATURES (Part 1 - Study Tools)
+Heading: "Features: Study Management"
+Content (with icons):
+- Pomodoro Timer: 4-cycle work/break timer with auto-progression
+- Study Planner: Subject & topic management with checkboxes
+- AI Study Companion: Gemini-powered chatbot for study help & emotional support
+- Focus Rating: Post-session 5-star self-assessment
+- Study Journal: Guided reflection prompts after each session
+Visual suggestion: Feature grid with app screenshots
+
+SLIDE 6 - KEY FEATURES (Part 2 - Wellness)
+Heading: "Features: Stress Relief & Wellness"
+Content (with icons):
+- Breathing Exercises: 3 presets (Box, 4-7-8, Calm) with animated guide
+- Ambient Sounds: Rain, Lo-Fi, Nature with volume control
+- Mood Tracker: Before/after session mood check-ins with 14-day trend chart
+- Virtual Garden: Plants grow as you complete study sessions (gamification)
+- Achievement Badges: 12 unlockable badges, XP system, 5 levels
+Visual suggestion: Feature grid with wellness UI screenshots
+
+SLIDE 7 - SYSTEM ARCHITECTURE
+Heading: "System Architecture"
+Content:
+- Frontend: React.js + Vite + shadcn/ui + Framer Motion + Tailwind CSS
+- Backend: Flask (Python) + Gunicorn
+- AI Integration: Google Gemini API (generative AI for chat)
+- Data Storage: LocalStorage (client-side, privacy-first)
+- Hosting: Render.com (backend Web Service + frontend Static Site)
+- Design Pattern: RESTful API, component-based UI
+Visual suggestion: Architecture diagram showing Frontend <-> Backend <-> Gemini API
+
+SLIDE 8 - USER FLOW
+Heading: "User Journey"
+Content (flowchart style):
+1. Landing Page -> Start Session
+2. Select Stress Level (Low / Medium / High)
+3. View Personalized Recommendations & Motivational Quote
+4. Mood Check-in (Before)
+5. Pomodoro Study Timer (with ambient sounds + breathing exercises)
+6. Focus Rating (1-5 stars)
+7. Mood Check-in (After)
+8. Session Complete -> View Progress Dashboard
+Side activities: Study Planner, AI Chat, Virtual Garden, Journal, Export Report
+Visual suggestion: User flow diagram or journey map
+
+SLIDE 9 - RESULTS & IMPACT
+Heading: "Impact & Evaluation"
+Content:
+- 20+ interactive features in a single cohesive application
+- Addresses both productivity AND mental wellness simultaneously
+- Gamification (garden, badges, XP) increases engagement and return usage
+- Mood tracking enables students to see correlation between study habits and emotional state
+- PDF export feature allows students to share progress with counselors/advisors
+- Privacy-first: All personal data stays in browser (localStorage)
+Visual suggestion: Dashboard screenshot, mood chart, achievement badges
+
+SLIDE 10 - DEMO & THANK YOU
+Heading: "Live Demo & Links"
+Content:
+- Live App: https://hciui-frontend.onrender.com
+- GitHub: https://github.com/jayeshsyngenta-rgb/hciUI
+- "Thank you! Questions?"
+Visual suggestion: QR code to live app, large screenshot
+
+---
+
+DESIGN GUIDELINES:
+- Color palette: Soft purples, blues, and greens (calming, wellness-themed)
+- Style: Modern, minimal, rounded corners, subtle gradients
+- Typography: Clean sans-serif (Inter or similar)
+- Use icons from Lucide icon set where possible
+- Include app screenshots or mockups where suggested
+- Keep text concise - use bullet points, not paragraphs
